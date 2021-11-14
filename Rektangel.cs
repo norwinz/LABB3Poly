@@ -31,5 +31,10 @@ namespace LABB3Poly
             svar = width * height;
             return svar;
         }
+        public override void Printout()
+        {
+            double print = Math.Round(Area(), 2);
+            Console.WriteLine("Area Rektangel: {0}", print);
+        }
     }
 }

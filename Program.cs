@@ -9,13 +9,12 @@ namespace LABB3Poly
         {
 
             Teckning t1 = new Cirkel();
-            Console.WriteLine("Area Cirkel: "+ Math.Round(t1.Area(), 2));
-
             Teckning t2 = new Fyrkant();
-            Console.WriteLine("Area Fyrkant: "+ Math.Round(t2.Area(), 2));
-
             Teckning t3 = new Rektangel();
-            Console.WriteLine("Area Rektangel: "+ Math.Round(t3.Area(), 2));
+           
+            t1.Printout();
+            t2.Printout();
+            t3.Printout();                   
         }
     }
 }

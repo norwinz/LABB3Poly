@@ -24,8 +24,12 @@ namespace LABB3Poly
            
             return svar;
         }
-        
-        
-        
+        public override void Printout()
+        {
+            double print = Math.Round(Area(), 2);
+            Console.WriteLine("Area Cirkel: {0}", print);
+        }
+
+
     }
 }

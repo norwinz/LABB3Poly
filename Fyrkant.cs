@@ -25,5 +25,10 @@ namespace LABB3Poly
             svar = side * side;
             return svar;
         }
+        public override void Printout()
+        {
+            double print = Math.Round(Area(), 2);
+            Console.WriteLine("Area Fyrkant: {0}", print);
+        }
     }
 }
